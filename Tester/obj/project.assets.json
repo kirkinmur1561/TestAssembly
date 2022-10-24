@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Кирилл\\.nuget\\packages\\": {},
+    "S:\\VS_SDK\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "S:\\ReposProject\\TestAssembly\\Tester\\Tester.csproj",
+      "projectName": "Tester",
+      "projectPath": "S:\\ReposProject\\TestAssembly\\Tester\\Tester.csproj",
+      "packagesPath": "C:\\Users\\Кирилл\\.nuget\\packages\\",
+      "outputPath": "S:\\ReposProject\\TestAssembly\\Tester\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "S:\\VS_SDK\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Кирилл\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "S:\\ReposProject\\TestAssembly\\Common\\Common.csproj": {
+              "projectPath": "S:\\ReposProject\\TestAssembly\\Common\\Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+S:\ReposProject\TestAssembly\Common\bin\Debug\net5.0\Common.deps.json
+S:\ReposProject\TestAssembly\Common\bin\Debug\net5.0\Common.dll
+S:\ReposProject\TestAssembly\Common\bin\Debug\net5.0\ref\Common.dll
+S:\ReposProject\TestAssembly\Common\bin\Debug\net5.0\Common.pdb
+S:\ReposProject\TestAssembly\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+S:\ReposProject\TestAssembly\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+S:\ReposProject\TestAssembly\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+S:\ReposProject\TestAssembly\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+S:\ReposProject\TestAssembly\Common\obj\Debug\net5.0\Common.dll
+S:\ReposProject\TestAssembly\Common\obj\Debug\net5.0\ref\Common.dll
+S:\ReposProject\TestAssembly\Common\obj\Debug\net5.0\Common.pdb
+S:\ReposProject\TestAssembly\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache

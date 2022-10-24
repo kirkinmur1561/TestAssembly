@@ -1,0 +1,17 @@
+S:\ReposProject\TestAssembly\Model_2\obj\Debug\net5.0\Model_2.csproj.AssemblyReference.cache
+S:\ReposProject\TestAssembly\Model_2\obj\Debug\net5.0\Model_2.GeneratedMSBuildEditorConfig.editorconfig
+S:\ReposProject\TestAssembly\Model_2\obj\Debug\net5.0\Model_2.AssemblyInfoInputs.cache
+S:\ReposProject\TestAssembly\Model_2\obj\Debug\net5.0\Model_2.AssemblyInfo.cs
+S:\ReposProject\TestAssembly\Model_2\obj\Debug\net5.0\Model_2.csproj.CoreCompileInputs.cache
+S:\ReposProject\TestAssembly\Model_2\bin\Debug\net5.0\Model_2.deps.json
+S:\ReposProject\TestAssembly\Model_2\bin\Debug\net5.0\Model_2.runtimeconfig.json
+S:\ReposProject\TestAssembly\Model_2\bin\Debug\net5.0\Model_2.runtimeconfig.dev.json
+S:\ReposProject\TestAssembly\Model_2\bin\Debug\net5.0\Model_2.dll
+S:\ReposProject\TestAssembly\Model_2\bin\Debug\net5.0\ref\Model_2.dll
+S:\ReposProject\TestAssembly\Model_2\bin\Debug\net5.0\Model_2.pdb
+S:\ReposProject\TestAssembly\Model_2\bin\Debug\net5.0\Newtonsoft.Json.dll
+S:\ReposProject\TestAssembly\Model_2\obj\Debug\net5.0\Model_2.csproj.CopyComplete
+S:\ReposProject\TestAssembly\Model_2\obj\Debug\net5.0\Model_2.dll
+S:\ReposProject\TestAssembly\Model_2\obj\Debug\net5.0\ref\Model_2.dll
+S:\ReposProject\TestAssembly\Model_2\obj\Debug\net5.0\Model_2.pdb
+S:\ReposProject\TestAssembly\Model_2\obj\Debug\net5.0\Model_2.genruntimeconfig.cache

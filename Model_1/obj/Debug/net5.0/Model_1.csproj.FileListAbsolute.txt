@@ -1,0 +1,15 @@
+S:\ReposProject\TestAssembly\Model_1\bin\Debug\net5.0\Model_1.deps.json
+S:\ReposProject\TestAssembly\Model_1\bin\Debug\net5.0\Model_1.dll
+S:\ReposProject\TestAssembly\Model_1\bin\Debug\net5.0\ref\Model_1.dll
+S:\ReposProject\TestAssembly\Model_1\bin\Debug\net5.0\Model_1.pdb
+S:\ReposProject\TestAssembly\Model_1\obj\Debug\net5.0\Model_1.csproj.AssemblyReference.cache
+S:\ReposProject\TestAssembly\Model_1\obj\Debug\net5.0\Model_1.GeneratedMSBuildEditorConfig.editorconfig
+S:\ReposProject\TestAssembly\Model_1\obj\Debug\net5.0\Model_1.AssemblyInfoInputs.cache
+S:\ReposProject\TestAssembly\Model_1\obj\Debug\net5.0\Model_1.AssemblyInfo.cs
+S:\ReposProject\TestAssembly\Model_1\obj\Debug\net5.0\Model_1.csproj.CoreCompileInputs.cache
+S:\ReposProject\TestAssembly\Model_1\obj\Debug\net5.0\Model_1.dll
+S:\ReposProject\TestAssembly\Model_1\obj\Debug\net5.0\ref\Model_1.dll
+S:\ReposProject\TestAssembly\Model_1\obj\Debug\net5.0\Model_1.pdb
+S:\ReposProject\TestAssembly\Model_1\bin\Debug\net5.0\Model_1.runtimeconfig.json
+S:\ReposProject\TestAssembly\Model_1\bin\Debug\net5.0\Model_1.runtimeconfig.dev.json
+S:\ReposProject\TestAssembly\Model_1\obj\Debug\net5.0\Model_1.genruntimeconfig.cache

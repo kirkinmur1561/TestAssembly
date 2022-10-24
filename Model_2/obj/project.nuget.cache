@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eFK4rNk+Qxd5Ppuz8C8jcWEPurSqMs7ZhnJPFYlMIo5jommiXHgRzeAS30Wab5a2FsjEguqEMY7X6oFcBdsqyA==",
+  "success": true,
+  "projectFilePath": "S:\\ReposProject\\TestAssembly\\Model_2\\Model_2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Кирилл\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
