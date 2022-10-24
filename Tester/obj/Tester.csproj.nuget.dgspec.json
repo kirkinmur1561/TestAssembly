@@ -15,7 +15,7 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "S:\\VS_SDK\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Кирилл\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -75,7 +75,7 @@
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "S:\\VS_SDK\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Кирилл\\AppData\\Roaming\\NuGet\\NuGet.Config",
