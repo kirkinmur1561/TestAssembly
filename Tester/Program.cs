@@ -5,33 +5,55 @@ using System.Linq;
 using System.Reflection;
 using System.Windows.Input;
 using Common;
+using System.IO.Compression;
+using System.Text.RegularExpressions;
 
 namespace Tester
 {
     class Program
     {
+        private static FileSystemWatcher _fsw;
         static void Main(string[] args)
         {
-            string[] pluginPaths = new string[]
+            _fsw = new FileSystemWatcher(Environment.CurrentDirectory + "\\plugins");
+           
+            _fsw.EnableRaisingEvents = true;
+            _fsw.Created += (s, e) =>
             {
-                // Paths to plugins to load.
-                @"S:\ReposProject\TestAssembly\Model_1\bin\Debug\net5.0\Model_1.dll",
-                @"S:\ReposProject\TestAssembly\Model_2\bin\Debug\net5.0\Model_2.dll"
+                string _p = e.Name.Replace(".zip", "");
+                Directory.CreateDirectory($@"..\plugins\{_p}");
+                ZipFile.ExtractToDirectory(e.FullPath, $@"..\plugins\{_p}");
+                var p = Directory.EnumerateFiles(e.FullPath + @$"..\plugins\{_p}")
+                    .FirstOrDefault(f => Regex.IsMatch(f, "^Model_"));
+                Assembly pluginAssembly = LoadPlugin(p);
+                var c = CreateCommands(pluginAssembly).FirstOrDefault();
+                c.Exe();
             };
-            
-            IEnumerable<IModel> commands = pluginPaths.SelectMany(pluginPath =>
-            {
-                Assembly pluginAssembly = LoadPlugin(pluginPath);
-                return CreateCommands(pluginAssembly);
-            }).ToList();
-            
-            foreach (IModel command in commands)
-            {
-                command.Exe();
-                Console.WriteLine($"{command.Name}\t - {command.Description}");
-            }
+
+            // string[] pluginPaths = new string[]
+            // {
+            //     // Paths to plugins to load.
+            //     @"S:\ReposProject\TestAssembly\Model_1\bin\Debug\net5.0\Model_1.dll",
+            //     @"S:\ReposProject\TestAssembly\Model_2\bin\Debug\net5.0\Model_2.dll"
+            // };
+            //
+            // IEnumerable<IModel> commands = pluginPaths.SelectMany(pluginPath =>
+            // {
+            //     Assembly pluginAssembly = LoadPlugin(pluginPath);
+            //     return CreateCommands(pluginAssembly);
+            // }).ToList();
+            //
+            // foreach (IModel command in commands)
+            // {
+            //     command.Exe();
+            //     Console.WriteLine($"{command.Name}\t - {command.Description}");
+            // }
             
             Console.WriteLine("Hello World!");
+            Console.ReadLine();
+        
+            _fsw.EnableRaisingEvents = false;
+            _fsw.Dispose();
         }
         
         static Assembly LoadPlugin(string relativePath)
